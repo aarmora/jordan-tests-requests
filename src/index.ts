@@ -8,7 +8,7 @@ dotenv.config({ path: __dirname + '/../.env' });
 	const url = `https://backend.cobaltintelligence.com/tester`;
 	const proxyUrl = `http://api.scraperapi.com?api_key=${process.env.scraperApiKey}&url=${url}`;
 
-	const axiosResponse = await axios.post(url, null, {
+	const axiosResponse = await axios.get(url, {
 		headers: {
 			'pizza': 'with Cheese'
 		}
