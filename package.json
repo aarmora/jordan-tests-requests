@@ -24,10 +24,13 @@
 	},
 	"homepage": "https://github.com/aarmora/jordan-tests-requests#readme",
 	"dependencies": {
-		"axios": "^0.19.2"
+		"axios": "^0.19.2",
+		"dotenv": "^8.2.0"
 	},
 	"devDependencies": {
 		"@types/axios": "^0.14.0",
+		"@types/dotenv": "^8.2.0",
+		"@types/node": "^14.0.5",
 		"typescript": "^3.9.3"
 	}
 }
