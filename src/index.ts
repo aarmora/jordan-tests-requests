@@ -5,10 +5,14 @@ dotenv.config({ path: __dirname + '/../.env' });
 
 (async () => {
 
-	// const url = `http://api.scraperapi.com?api_key=${process.env.scraperApiKey}&url=https://jordan-tests-requests-express-server-nbxxguimx.now.sh/api`;
-	const url = `https://jordan-tests-requests-express-server-nbxxguimx.now.sh/api`;
+	const url = `https://backend.cobaltintelligence.com/tester`;
+	const proxyUrl = `http://api.scraperapi.com?api_key=${process.env.scraperApiKey}&url=${url}`;
 
-	const axiosResponse = await axios.post(url);
+	const axiosResponse = await axios.post(url, null, {
+		headers: {
+			'pizza': 'with Cheese'
+		}
+	});
 
 	console.log('axiosResponse', axiosResponse.data, axiosResponse.status);
 
