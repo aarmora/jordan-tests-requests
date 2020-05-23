@@ -1,0 +1,33 @@
+{
+	"name": "jordan-tests-requests",
+	"version": "1.0.0",
+	"description": "Jordan tests axios requests from ubuntu and windows in order to see how different OSes are detected.",
+	"main": "./dist/index.js",
+	"scripts": {
+		"start": "tsc && node ./dist/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/aarmora/jordan-tests-requests.git"
+	},
+	"keywords": [
+		"axios",
+		"web",
+		"scraping",
+		"javascript",
+		"typescript"
+	],
+	"author": "Jordan Hansen",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/aarmora/jordan-tests-requests/issues"
+	},
+	"homepage": "https://github.com/aarmora/jordan-tests-requests#readme",
+	"dependencies": {
+		"axios": "^0.19.2"
+	},
+	"devDependencies": {
+		"@types/axios": "^0.14.0",
+		"typescript": "^3.9.3"
+	}
+}
