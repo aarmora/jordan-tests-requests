@@ -10,7 +10,8 @@ dotenv.config({ path: __dirname + '/../.env' });
 
 	const axiosResponse = await axios.get(url, {
 		headers: {
-			'pizza': 'with Cheese'
+			'pizza': 'with Cheese',
+			'Referer': 'pizzaland.com'
 		}
 	});
 
