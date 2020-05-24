@@ -1,7 +1,7 @@
 {
 	"name": "jordan-tests-requests",
 	"version": "1.0.0",
-	"description": "Jordan tests axios requests from ubuntu and windows in order to see how different OSes are detected.",
+	"description": "Jordan tests axios requests from ubuntu and windows in order to see how to avoid being blocked while web scraping.",
 	"main": "./dist/index.js",
 	"scripts": {
 		"start": "tsc && node ./dist/index.js"
